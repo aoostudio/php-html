@@ -1,0 +1,12 @@
+# Shortcode
+<!--- Copy the code below and paste it in your page or post. --->
+
+[captainform id="1275299"]
+
+# Function Call 
+<!---- Copy the code below and paste it in a theme file. ---->
+<?php if(function_exists('captain_form')) echo captain_form(1275299); ?>
+
+# Popup
+<!---- Shortcode (page or post)---->
+[captainform id="1275299" lightbox="1" text_content="Contact%20Us" type="text"]
